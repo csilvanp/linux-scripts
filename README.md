@@ -17,6 +17,12 @@ If you're using a EC2 instance, you may need to set root password first to acces
   user@ubuntu:~$ sudo passwd root
 ```
 
+To run a script, you'll need to give an execution permission with chmod:
+
+```shell
+  chmod +x script_name.sh
+```
+
 <br>
 
 _This scripts were made as project from DIO Linux course._
